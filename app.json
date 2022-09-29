@@ -2,6 +2,8 @@
   "expo": {
     "name": "QRContact",
     "slug": "QRContact",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,12 +24,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.qrcontact.qrcontact"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "33e6e893-fc57-413a-9c2c-87c4b82f4aaa"
+      }
     }
   }
 }
